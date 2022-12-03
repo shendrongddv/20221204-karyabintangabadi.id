@@ -22,6 +22,26 @@ body {
 }
 
 /* Utility */
+.txtBrand {
+  color: var(--clr-brand);
+}
+
+.txtAccent {
+  color: var(--clr-accent);
+}
+
+.bgBrand {
+  background-color: var(--clr-brand);
+}
+
+.bgAccent {
+  background-color: var(--clr-accent);
+}
+
+.sectionPadding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 
 /* Navbar */
 .navbar-brand > img {
@@ -31,7 +51,7 @@ body {
 /* Hero */
 #hero {
   padding-top: 12rem;
-  padding-bottom: 6rem;
+  padding-bottom: 8rem;
   color: white;
 
   background: linear-gradient(70deg, rgb(8, 29, 61), rgba(41, 83, 147, 0)),
@@ -50,4 +70,9 @@ body {
 .txtTitleHero {
   font-family: var(--ff-heading);
   font-weight: 700;
+}
+
+/* Contact Lite */
+#contactLite {
+  margin-top: -4rem;
 }
