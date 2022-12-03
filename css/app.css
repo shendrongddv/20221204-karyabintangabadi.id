@@ -6,7 +6,48 @@
 :root {
   --ff-heading: "Lato", sans-serif;
   --ff-body: "Heebo", sans-serif;
-  --clr-brand: rgb(41, 83, 147);
+
+  --clr-brand: #295393;
+  --clr-brand-rgb: 41, 83, 147;
   --clr-accent: rgb(231, 116, 52);
+  --clr-body: rgb(117, 137, 148);
+
   --transition: all 0.4s ease;
+}
+
+/* Reset */
+body {
+  font-family: var(--ff-body);
+  color: var(--clr-body);
+}
+
+/* Utility */
+
+/* Navbar */
+.navbar-brand > img {
+  height: 2.5rem;
+}
+
+/* Hero */
+#hero {
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+  color: white;
+
+  background: linear-gradient(70deg, rgb(8, 29, 61), rgba(41, 83, 147, 0)),
+    url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.txtSubtitleHero {
+  font-family: var(--ff-heading);
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--clr-accent);
+}
+
+.txtTitleHero {
+  font-family: var(--ff-heading);
+  font-weight: 700;
 }
