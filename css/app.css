@@ -1,0 +1,12 @@
+/* Fonts */
+@import url(../font/lato/lato.css);
+@import url(../font/heebo/heebo.css);
+
+/* Variables */
+:root {
+  --ff-heading: "Lato", sans-serif;
+  --ff-body: "Heebo", sans-serif;
+  --clr-brand: rgb(41, 83, 147);
+  --clr-accent: rgb(231, 116, 52);
+  --transition: all 0.4s ease;
+}
