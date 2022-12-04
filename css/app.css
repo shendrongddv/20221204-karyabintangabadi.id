@@ -74,7 +74,7 @@ svg {
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
   color: white;
-  background-color: var(--clr-brand);
+  background-color: var(--clr-accent);
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: 0;
   transition: var(--bs-navbar-toggler-transition);
