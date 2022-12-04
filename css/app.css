@@ -106,14 +106,16 @@ svg {
   color: white;
 }
 
-#footer ul li {
+#footer ul li,
+#footer ul li a {
   display: flex;
   align-items: flex-start;
   gap: 0.25rem;
   transition: var(--transition);
 }
 
-#footer ul li:hover {
+#footer ul li:hover,
+#footer ul li:hover a {
   gap: 0.5rem;
 }
 
