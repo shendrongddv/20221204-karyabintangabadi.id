@@ -19,6 +19,22 @@
 body {
   font-family: var(--ff-body);
   color: var(--clr-body);
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--clr-accent);
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
 }
 
 /* Utility */
@@ -48,10 +64,21 @@ body {
   height: 2.5rem;
 }
 
+/* Footer */
+#footer img {
+  height: 4rem;
+}
+
+.footerTitle {
+  font-family: var(--ff-heading);
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--clr-accent);
+}
+
 /* Hero */
 #hero {
   padding-top: 12rem;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
   color: white;
 
   background: linear-gradient(70deg, rgb(8, 29, 61), rgba(41, 83, 147, 0)),
