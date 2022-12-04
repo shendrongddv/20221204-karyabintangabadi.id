@@ -65,6 +65,11 @@ svg {
 }
 
 /* Footer */
+#footer {
+  background-color: var(--clr-brand);
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+}
 #footer img {
   height: 4rem;
 }
@@ -73,6 +78,17 @@ svg {
   font-family: var(--ff-heading);
   padding-bottom: 0.5rem;
   border-bottom: 3px solid var(--clr-accent);
+}
+
+#footer span .h5 {
+  color: white;
+}
+
+#footer ul li a {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 /* Hero */
